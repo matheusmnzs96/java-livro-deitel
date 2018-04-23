@@ -34,7 +34,7 @@ public class TesteFrequenciaCardiaca{
 
 		System.out.println("\n-------------------------------------------------");
 		System.out.printf("|Idade: %d\n|Frequencia Cardiaca Maxima (FCM): %d\n", usuario.getIdade(), usuario.fcMaxima());
-		System.out.printf("|Frquencia Cardiaca Alvo (Minima): %.2f\n|Frequencia Cardiaca Alvo (Maxima): %.2f\n", usuario.fcAlvoMin(), usuario.fcAlvoMax());
+		System.out.printf("|Frequencia Cardiaca Alvo (Minima): %.2f\n|Frequencia Cardiaca Alvo (Maxima): %.2f\n", usuario.fcAlvoMin(), usuario.fcAlvoMax());
 		System.out.println("-------------------------------------------------");
 	}
 }

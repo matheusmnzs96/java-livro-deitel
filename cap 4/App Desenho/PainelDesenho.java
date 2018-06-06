@@ -29,7 +29,7 @@ public class PainelDesenho extends JPanel{
         // drawline(x1, y1, x2, y2)
 
 		// desenha uma linha a partir do canto superior esquerdo até o inferior direito
-        g.drawLine(0, 0, largura, altura);
+    	g.drawLine(0, 0, largura, altura);
           
         // desenha uma linha a partir do canto inferior esquerdo até o superior direito
         g.drawLine(0, altura, largura, 0);

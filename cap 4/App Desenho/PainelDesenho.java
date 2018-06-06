@@ -15,17 +15,6 @@ public class PainelDesenho extends JPanel{
 		int largura = getWidth(); // largura total
 		int altura = getHeight(); // altura total
 
-		/*
-		Exemplo grafico coordenadas:
-       	
-       	(0,0)_ _ _ _ x
-        	|
-        	|
-        	|
-           y
-        
-        */
-
         // drawline(x1, y1, x2, y2)
 
 		// desenha uma linha a partir do canto superior esquerdo até o inferior direito

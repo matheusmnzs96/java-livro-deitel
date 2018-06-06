@@ -1,4 +1,4 @@
-// Classe que realiza o desenho
+// Classe que realiza um desenho
 // Created by Matheus Menezes on 2018-05-15
 
 import java.awt.Graphics; // fornece metodos para desenhar textos e formas na tela
@@ -15,9 +15,22 @@ public class PainelDesenho extends JPanel{
 		int largura = getWidth(); // largura total
 		int altura = getHeight(); // altura total
 
+		/*
+		Exemplo grafico coordenadas:
+       	
+       	(0,0)_ _ _ _ x
+        	|
+        	|
+        	|
+           y
+        
+        */
+
+        // drawline(x1, y1, x2, y2)
+
 		// desenha uma linha a partir do canto superior esquerdo até o inferior direito
         g.drawLine(0, 0, largura, altura);
-
+          
         // desenha uma linha a partir do canto inferior esquerdo até o superior direito
         g.drawLine(0, altura, largura, 0);
 	}

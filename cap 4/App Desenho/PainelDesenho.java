@@ -6,7 +6,7 @@ import javax.swing.JPanel; // fornece uma area (painel) para inserir desenhos, b
 
 public class PainelDesenho extends JPanel{
 
-	// desenha um 'X' a partir dos cantos do painel
+	// metodo desenha um 'X' a partir dos cantos do painel
 	public void paintComponent(Graphics g){
 
 		// chama paintComponent para assegurar que o painel é exibido corretamente
